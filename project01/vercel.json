@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/mint/:path*",
+      "destination": "https://next-vercel-multiple-prj-single-domain-mko4.vercel.app/:path*"
+    },
+    {
+      "source": "/mint/:path*/",
+      "destination": "https://next-vercel-multiple-prj-single-domain-mko4.vercel.app/:path*/"
+    }
+  ]
+}
